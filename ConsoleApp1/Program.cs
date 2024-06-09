@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           // Class1.NumParser("21");
+
+            string role = "admen";
+
+          string sd=   Class2.GetUserRole3(role,true);
+            Console.WriteLine($"THe Role is {sd}");
         }
     }
 }
